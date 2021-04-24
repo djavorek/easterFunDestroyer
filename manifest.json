@@ -1,8 +1,8 @@
 {
     "name": "Easter-2048-Solver",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "manifest_version": 2,
-    "description": "Making easter 2048 puzzle un-fun by solving it.",
+    "description": "Making 2048 puzzle un-fun by solving it.",
     "icons": { 
         "16": "icon16.png",
         "48": "icon48.png",
@@ -16,13 +16,15 @@
       },
      "web_accessible_resources": [
         "content.js",
-        "solver.js"
+        "solver.js",
+        "grid.js",
+        "expectimax.js",
+        "start.js"
      ],
     "browser_action": {
-      "default_title": "Solve Easter Puzzle!"
+      "default_title": "Solve 2048!"
     },
     "permissions": [
-      "https://ceepagames.com/",
       "https://play2048.co/"
     ]
   }

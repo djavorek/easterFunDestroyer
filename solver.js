@@ -187,7 +187,7 @@ class Solver {
 
     start() {
         if (!this.intval) {
-            this.intval = window.setInterval(this.next.bind(this), 100);
+            this.intval = window.setInterval(this.next.bind(this), 300);
         }
     };
 
